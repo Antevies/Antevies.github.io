@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+<body>
+  <p style="margin-top: 100px;">Pilih salah satu dari tiga kartu di bawah ini dan dapatkan angka acak!</p>
+<div class="body"> <!-- Menambahkan atribut class="body" -->
+   <!-- Menambahkan properti margin-top dan menghapus tag <br> -->
+  <div class="container">
+    <div class="card" id="card1" onclick="pickCard(1)">
+      <img src="1.png" alt="Card 1">
+    </div>
+    <div class="card" id="card2" onclick="pickCard(2)">
+      <img src="2.png" alt="Card 2">
+    </div>
+    <div class="card" id="card3" onclick="pickCard(3)">
+      <img src="3.png" alt="Card 3">
+    </div>
+  </div>
+  <div class="result" id="result">
+    <p id="message">Hasil akan muncul di sini.</p>
+    <p id="number"></p>
+  </div>
+</div> <!-- Menambahkan tag </div> -->
+</body>
+</html>
